@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.tsx', // webpack 최초 진입점(엔트리 포인트) 파일 경로를 설정합니다.
   output: {
     // webpack을 실행한 후의 결과물의 이름/경로 등을 설정합니다.
-    filename: 'index.jsx',
+    filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [

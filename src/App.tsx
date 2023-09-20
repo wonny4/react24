@@ -1,7 +1,15 @@
+//App.tsx
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from '@Page/Home';
+import About from '@Page/About';
+import Info from '@Page/Info';
+
+const router = createBrowserRouter([
+  { path: '/', element: <Home /> },
+  { path: 'about', element: <About /> },
+  { path: 'info', element: <Info /> },
+]);
+
 export default function App() {
-  return (
-    <div style={{ height: '100%', width: '100%' }}>
-      <h1>MY REACT APP💗</h1>;
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
