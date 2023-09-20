@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "baseUrl": "src",
+    "checkJs": true,
+    "jsx": "react-jsx",
+    "module": "ES6",
+    "target": "ES5",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@Page/*": ["./pages/*"],
+      "@Component/*": ["./components/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
