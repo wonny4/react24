@@ -2,9 +2,8 @@
 
 react extract before 24
 
-react project extract of wonny4, np CRA
+react project extract of wonny4, without CRA 
 
-no CRA
 webpack,
 babel:
 @babel/core 바벨 설치
@@ -23,3 +22,25 @@ babel-loader 바벨을 webpack으로 통합해서 사용
 ✔ What format do you want your config file to be in? · JavaScript
 Checking peerDependencies of eslint-config-standard-with-typescript@latest
 The config that you've selected requires the following dependencies:
+
+#hooks
+collection of sexy react hooks ready to install with NPM
+
+-useTitle
+-useInput
+-usePageLeave
+-useClick
+-useFadeIn
+-useFullscreen
+-useHover
+-useNetwork
+-useNotification
+-useScroll
+-useTabs
+-usePreventLeave
+-useConfirm
+-useAxiosd
+
+
+1. 반응형 메뉴
+2. 각 메뉴 선택하면 useHooks 사용 예시
